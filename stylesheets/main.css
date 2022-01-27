@@ -1,0 +1,80 @@
+html {
+  background: black;
+  color: white;
+  font-family: serif;
+}
+
+header {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 10fr 2fr
+}
+
+#heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1.5rem;
+}
+
+#login {
+  background: green;
+  text-align: center;
+  padding: 2rem;
+}
+
+body {
+  height: 100vh
+}
+
+#navigation {
+  background: navy;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1rem;
+  text-align: center;
+  border-top: 1.5px solid white;
+}
+
+#main_image {
+  text-align: left;
+  width: 100vw;
+  background-image: url(../images/1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#main_image h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem 2rem 15rem 2rem;
+}
+
+#info {
+  padding: 1.5rem;
+}
+
+#attractions {
+  width: 100vw;
+  background: white;
+  color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 1.5rem;
+}
+
+.link {
+  padding: 1rem;
+}
+
+.link h3 {
+  font-weight: bold;
+}
+
+.link img {
+  width: 12rem;
+  height: 7rem;
+}
+
+footer {
+  padding: 1.5rem;
+}
